@@ -1,0 +1,27 @@
+<div class="new-question">
+{{#if addNewQuestion}}
+  <h1>New Question</h1>
+  <div class="question-form">
+    <form>
+      <div class="studentName">
+        <label for="name">Your Name(s): </label>
+        {{input value=studentName id="name"}}
+      </div>
+
+      <div class="location">
+        <label for="location">Where are you sitting?</label>
+        {{input value=location id="location"}}
+      </div>
+
+      <div class="content">
+        <label for="content">Your Question: </label>
+        {{input value=content id="content"}}
+      </div>
+
+      <button {{action 'save'}}>Submit!</button>
+    </form>
+  </div>
+  {{else}}
+   <button {{action 'questionFormShow'}}>I have a question</button>
+{{/if}}
+</div>
