@@ -1,9 +1,8 @@
-<h1>This is the teacher Page</h1>
-
-
-
-<ul>
-  {{#each model as |question|}}
-     {{question-tile question=question destroyQuestion="destroyQuestion"}}
-  {{/each}}
-</ul>
+<div class="teacherPage">
+  <h1>This is the teacher Page</h1>
+  <ul>
+    {{#each model as |question|}}
+       {{question-tile question=question destroyQuestion="destroyQuestion"}}
+    {{/each}}
+  </ul>
+</div>

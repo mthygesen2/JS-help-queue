@@ -1,5 +1,6 @@
 { "questions": [{
-  "studentName": "Mao Thygesen",
+  "studentName1": "Mao Thygesen",
+  "studentName2": "Cassy Culkins",
   "location": "4F",
   "content": "This is a question"
   }]
